@@ -8,7 +8,7 @@
     * 561-feature vector with time and frequency domain variables
     * ID of each subect and the activities she was doing when the readings were recorded
   * more infomation
-    * For more infomation about the dataset, ***especially the meaning and format of each variable***, please turn to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+    * For more infomation about the dataset, ***especially the meaning, units and format of each variable***, please turn to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
 ###Process
   * Goal
@@ -32,5 +32,6 @@
       * 1st column - subjectID: ID of the subject
       * 2nd column - activityType: one of the 6 different activity types (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
       * all the left columns: mean of the variable of the corresponding subject and activity
+       * ***the original meaning, units and format of each variable***, please turn to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   * How to read in the output file? 
     * ```read.table("meanOfEverySubjectEveryActivity.txt", header = T)```
