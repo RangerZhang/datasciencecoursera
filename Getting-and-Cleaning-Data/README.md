@@ -2,6 +2,7 @@
 
 1. Initialization – I need your help~
   * install the `dplyr` package
+   * In order not to waste your time installing bunch of packages, I tried to use base-package as much as possible. The only outsourced package I need is `dplyr` in ***Step 5***.
   * set the working directory to be `/UCI HAR Dataset`
   * source the `run_analysis.R`
   * Now, you can call `run_analysis()` and it will do all the job for you
